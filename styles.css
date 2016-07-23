@@ -1,0 +1,56 @@
+html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,label,legend,p,blockquote,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}body{line-height:1;color:black;background:white;}:focus{outline:0;}table{border-collapse:collapse;border-spacing:0;}caption,th,td{text-align:left;font-weight:normal;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}blockquote:before,blockquote:after,q:before,q:after{content:"";}blockquote,q{quotes:"" "";}abbr,acronym{border:0;}
+
+.pointer {
+    cursor: pointer;
+}
+
+body {
+    background-color: #0063B1;
+    padding: 10px;
+    max-width: 310px;
+    margin: 0 auto;
+}
+
+.widetile {
+    background-color: #0063B1;
+    width: 270px;
+    height: 130px;
+    float: left;
+    margin: 5px;
+}
+
+.widetile input {
+    background-color: #0063B1;
+}
+
+.tile {
+    background-color: #fff;
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin: 5px;
+}
+
+.tile img {
+    width: 80px;
+    height: 80px;
+    margin: 2px 25px;
+    cursor: pointer;
+}
+
+p {
+    margin: 3px;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Pokemon GB';
+    text-align: center;
+}
+
+input[type=text] {
+    padding: 1px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Pokemon GB';
+}
